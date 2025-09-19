@@ -1,25 +1,39 @@
 h1 {
-    color: navy;
+    color: rgb(0, 0, 128);
     font-size: 36px;
     }
 
 h2 {
-    color: red;
+    color: rgb(255, 0, 0);
     font-size: 26px;
     }
 
 p {
-    color: steelblue;
+    color: rgb(70, 130, 180);
     font-size: 16px;
     width: 650px;
+    text-indent: 1.5em;
     }
 
+td {
+    text-align: center;
+}
+
 button:hover {
-    background-color: steelblue;
+    background-color: rgb(70, 130, 180);
     }
+
+a{font-size: 18px;}
+
 a:link{
-    color: blue;
+    color: rgb(0, 0, 255);
     }
+
 a:visited{
-    color: darkviolet;
+    color: rgb(148, 0, 211);
+    }
+
+textarea {
+    text-align: left;
+    vertical-align: top;
     }
